@@ -1,0 +1,76 @@
+\documentclass[11pt,twoside]{ata}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{url,graphicx,pgf}
+\urlstyle{sf}
+\usepackage{lipsum}  % produces dummy text
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[scaled=1]{helvet}
+\usepackage[helvet]{sfmath}
+\everymath={\sf}
+\usepackage[T1]{fontenc}
+
+\pgfdeclareimage[width=1.3\linewidth]{logo}{uninove-logo.png}
+
+\projeto{PROJETO EM INOVAÇÃO TECNOLÓGICA 2024.1}
+\curso{TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS\\SISTEMA DE CONTROLE DE MENSAGENS}
+\date{07 de março de 2024}
+
+%-----------------------------------------------------------
+% Informações que devem ser preenchidas para cada reunião
+% É necessário informar os dados de cada um dos integrantes,
+%  mesmo que ausentes.
+%-----------------------------------------------------------
+
+% Nome do Aluno (RA)
+% O líder sempre virá em primeiro da lista
+% Sempre em ordem alfabética após o líder
+\participante{\lider{Leonardo De Moura Souza (924109716)}}
+
+% Presentes
+\participante{{Daniel Duarte Dos Santos (924101435)}}
+\participante{Eduardo Oliveira Melo Reis (924111451)}
+\participante{Gabriel Couto Teixeira Da Silva (924109157)}
+\participante{Gabriel Robertoni Padilha (924114590)}
+\participante{Guilherme Garcia Barreto (924110670)}
+\participante{Jordan Willians Ferraz Da Silva (924106723)}
+\participante{Marcos Birindelli Rodrigues (924111451)}
+
+
+% Ausentes (sem todos compareceram, então comente as linhas abaixo)
+\participante{Henrique de Castro Iantas (924110800) }[ausente][Compromisso fora da cidade]
+\participante{}[ausente]
+
+\begin{document}
+% Ordinária (padão) - com data marcada mediante um calendário, ou
+% Extraordinária - fora das datas marcadas em calendário
+% Incrementar a numeração para cada novo documento
+\begin{reuniao}{ORDINÁRIA (1)}
+
+    Ao  dia oito do mês de março de dois mil e vinte quatro, às vinte horas e trinta minutos, reuniram-se via Google Meet, com a presença de \csuse{participantespresentes}, para tratar dos seguintes assuntos:
+
+    \begin{informes}
+        \item Debate para decidir a idéia do projeto.
+        \item Definição das funções atribuídas a cada membro do grupo.
+        \item Formalização de como iremos desenvolver o projeto juntos.
+        \item Próximos passos para a evolução do trabalho.        
+        \item Definição do dia, horário, local e participantes da próxima reunião.
+    \end{informes}
+ 
+    %-----------------------------------------------------------
+    % Lista dos assuntos tratados (pontos de pauta)
+    %-----------------------------------------------------------
+    \begin{assuntos}
+        \item O líder do grupo realizou um debate para que cada membro declarase sua idéia para o projeto. Após análises e criticas foi decedido a ideia via enquete no WhatsApp.
+        \item Com a idéia decidida, cada membro descreveu suas qualidades e conhecimento que poderiam agregar no desenvolvimento do projeto, diante a isso foi determinado a função de cada membro.
+        \item O Desenvolvimento do projeto será feito através de reuniões que servirar para alinhamento de como está o andamento do projeto. Iremos utilizar o grupo do WhatSapp para dúvidas e organização.
+        \item O líder indicou o que cada membro do grupo deverá entregar na próxima reunião.
+        \item A próxima reunião ocorrerá no dia 14 de março de 2024 às vinte horas e trinta minutos via Google Meet.
+      \begin{idia}
+\end{assuntos}
+\end{reuniao}
+
+% Opcional
+\proximareuniao{21 de março de 2024.}
+
+\end{document}
